@@ -1,0 +1,104 @@
+syntax = "proto3";
+
+package user;
+
+// import "google/protobuf/timestamp.proto";
+
+option go_package = "github.com/supanygga/sharpey/pkg/grpc/proto/user";
+
+/**
+* ... .
+*/
+service UserService {
+    /*
+    * ... .
+    */
+    rpc Create(CreateRequest) returns (CreateResponse);
+    /*
+    * ... .
+    */
+    rpc Get(GetRequest) returns (GetResponse);
+    /*
+    * ... .
+    */
+    rpc List(ListRequest) returns (ListResponse);
+    /*
+    * ... .
+    */
+    rpc Update(UpdateRequest) returns (UpdateResponse);
+    /*
+    * ... .
+    */
+    rpc Delete(DeleteRequest) returns (DeleteResponse);
+}
+
+/*
+* ... .
+*/
+message CreateRequest {
+
+}
+
+/*
+* ... .
+*/
+message CreateResponse {
+
+}
+
+/*
+* ... .
+*/
+message GetRequest {
+
+}
+
+/*
+* ... .
+*/
+message GetResponse {
+    
+}
+
+/*
+* ... .
+*/
+message ListRequest {
+
+}
+
+/*
+* ... .
+*/
+message ListResponse {
+    
+}
+
+/*
+* ... .
+*/
+message UpdateRequest {
+
+}
+
+/*
+* ... .
+*/
+message UpdateResponse {
+    
+}
+
+/*
+* ... .
+*/
+message DeleteRequest {
+
+}
+
+/*
+* ... .
+*/
+message DeleteResponse {
+    
+}
+

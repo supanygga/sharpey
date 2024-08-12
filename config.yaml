@@ -1,0 +1,4 @@
+twitch:
+  name: justinfan1337
+  token: 1337
+  channels: [forsen]

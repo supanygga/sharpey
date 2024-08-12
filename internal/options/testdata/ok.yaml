@@ -1,0 +1,4 @@
+twitch:
+  name: name
+  token: token
+  channels: [channel, channel2]
